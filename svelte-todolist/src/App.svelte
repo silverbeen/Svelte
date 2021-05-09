@@ -1,18 +1,13 @@
 <script>
-	export let name;
+	import NavBar from './components/NavBar.svelte'
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<section>
+		<NavBar/>
+	</section>
 </main>
 
-<style lang="scss">
-	main {
-	  text-align: center;
-  
-	  & > h1 {
-		color: #ff3e00;
-	  }
-	}
-  </style>
+<style >
+
+</style>
